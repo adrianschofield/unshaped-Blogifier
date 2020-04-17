@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+	<head>
+		<!--<title>UnshapedAdrian</title>-->
+		<link href="~/home/cover.css" rel="stylesheet">
+		<!--<link href="styles/main.css" rel="stylesheet" type="text/css" />-->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">		
+		
+	</head>
+	
+	<body>
+		<header class="navbar">
+			<div class = "container">
+				<div class="row">
+					<div class="well col-sm-12"><img class="bannerimg" src="/home/img/Unshaped_Twitch_Channel_Art.png" /></div>
+				</div>
+				<!--<img src="images/Unshaped_Twitch_Channel_Art.png" />-->
+				
+			</div>
+			<div class="container">
+				<nav class="navbar navbar-default" role="navigation">
+				  <div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					  <!--<a class="navbar-brand" href="#">Brand</a>-->
+					  <img class="navbar-brand" src="/home/img/Channel_Icon_small.png" />
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/Blog">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a>
+						</li>
+						<!--<li><a href="contact.html">Contact</a></li>-->
+						<!--<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+						  <ul class="dropdown-menu" role="menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+							<li class="divider"></li>
+							<li><a href="#">One more separated link</a></li>
+						  </ul>
+						</li>-->
+					  </ul>
+					  <!--<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+						  <input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					  </form>-->
+					  <ul class="nav navbar-nav navbar-right">
+						<!--<li><a href="#">Link</a></li>-->
+						<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Unshaped Stuff<span class="caret"></span></a>
+						  <ul class="dropdown-menu" role="menu">
+							<li><a href="http://unshapedadrian.co.uk/pcspecs.html">My PC Rig</a></li>
+							<li class="divider"></li>
+							<li><a href="http://www.twitch.tv/unshapedadrian">Twitch</a></li>
+							<li><a href="http://www.youtube.com/unshapedadrian">YouTube</a></li>
+							<li><a href="http://www.steampowered.com">Steam</a></li>
+						  </ul>
+						</li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row">
+				<!--<div class="col-sm-6">I'm an avid video gamer and general computer geek.</div>-->
+                <div class="container body-content col">
+                    @RenderBody()
+                    <hr/>
+                </div>
+				<div class="col-sm-6">
+					<iframe id="fr" src="http://widget.socialblade.com/widget.php?u=unshapedadrian" style="overflow: hidden; height: 125px; width: 200px; border: 0;" scrolling="no" frameBorder="0"></iframe>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+		
+		<hr>
+			<div class = "container">
+				<div class="row">
+					<div class="col-sm-1" style="text-align: center">
+						<a href="http://www.twitter.com/unshapedadrian">
+							<img class="buttonImg" align="middle" src="/home/img/Twitter_logo_blue.png"/>
+						</a>
+					</div>
+					<div class="col-sm-1" style="text-align: center">
+						<a href="http://www.youtube.com/unshapedadrian">
+							<img class="buttonImg" align="middle" src="/home/img/YouTube-social-icon_red_24px.png"/>
+						</a>
+					</div>
+					<div class="col-sm-1" style="text-align: center">
+						<a href="http://www.twitch.tv/unshapedadrian">
+							<img class="buttonImg" align="middle" src="/home/img/GlitchIcon_PurpleonWhite.png"/>
+						</a>
+					</div>
+					<!--<div class="col-sm-1" style="text-align: center">
+						<a href="http://googleplus.com/unshapedadrian">
+							<img class="buttonImg" align="middle" src="images/g32.png"/>
+						</a>
+					</div>-->
+					<div class="col-sm-1" style="text-align: center">
+						<a href="http://facebook.com/unshapedadrian">
+							<img class="buttonImg" align="middle" src="/home/img/FB-f-Logo__blue_29.png"/>
+						</a>
+					</div>
+					<div class="col-sm-7" style="text-align: center">Copyright UnshapedAdrian 2020, I wrote this with Visual Studio Code</div>
+				</div>
+				
+				<!--<img class="bannerimg" src="images/Twitter_logo_blue.png" />-->
+				
+			</div>
+		</footer>
+		
+		
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	</body>
+</html>
