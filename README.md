@@ -35,3 +35,15 @@ The [demo site](http://blogifier.net) is a playground to check out Blogifier fea
 
 ![dashboard-3](https://user-images.githubusercontent.com/1932785/77836549-1481c900-7125-11ea-812f-9bd5343274f9.png)
 
+## Learning Notes
+
+Where I have a single .html I want to display, rename to .cshtml and place in Views.
+Add a new controller to HomeController for example:
+
+public IActionResult BreakOut()
+{
+        return View();
+}
+
+
+
